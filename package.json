@@ -1,0 +1,36 @@
+{
+  "name": "watchface",
+  "author": "rcano",
+  "version": "1.0.0",
+  "keywords": ["pebble-app"],
+  "private": true,
+  "dependencies": {},
+  "pebble": {
+    "displayName": "watchface",
+    "uuid": "ab6bce7d-0272-42f7-a1da-002a24610b13",
+    "sdkVersion": "3",
+    "enableMultiJS": true,
+    "targetPlatforms": [
+      "aplite",
+      "basalt",
+      "chalk",
+      "diorite"
+    ],
+    "watchapp": {
+      "watchface": true
+    },
+    "messageKeys": [
+      "dummy"
+    ],
+    "resources": {
+      "media": [
+        {
+          "type": "font",
+          "name": "FONT_PERFECT_DOS_48",
+          "file": "fonts/perfect-dos-vga.ttf",
+          "compatibility":"2.7"
+        }
+      ]
+    }
+  }
+}

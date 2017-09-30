@@ -1,0 +1,30 @@
+{
+    "targetPlatforms": [
+        "aplite", 
+        "basalt", 
+        "chalk", 
+        "diorite"
+    ], 
+    "displayName": "watchface", 
+    "name": "watchface", 
+    "messageKeys": {
+        "dummy": 10000
+    }, 
+    "companyName": "rcano", 
+    "enableMultiJS": true, 
+    "versionLabel": "1.0", 
+    "capabilities": [], 
+    "sdkVersion": "3", 
+    "appKeys": {
+        "dummy": 10000
+    }, 
+    "longName": "watchface", 
+    "shortName": "watchface", 
+    "watchapp": {
+        "watchface": true
+    }, 
+    "resources": {
+        "media": []
+    }, 
+    "uuid": "ab6bce7d-0272-42f7-a1da-002a24610b13"
+}
